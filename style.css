@@ -1,0 +1,62 @@
+
+@media only screen and (min-width: 501px) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+    }
+    .mobileHide {
+        display: inline;
+        } 
+    .mobileShow {
+        display: none;
+    }
+    p.mobileHide {
+        color: cornflowerblue;
+    }
+}
+/* -------------------------------------------------> */
+  /* Smartphone Portrait and Landscape */ 
+  @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px) { 
+      * {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+
+        }
+      .mobileShow {
+        display: flex;
+        flex-direction: column;
+        }
+      .mobileHide {
+        display: none;
+      } 
+      body {
+        font-family: 'Open Sans', sans-serif;
+      }
+      .left {
+          background-color: pink;
+          height: 50%;
+      }
+      .right {
+          background-color: green;
+          height: 50%;
+      }
+      h {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+
+
+
+
+
+
+
+  }
